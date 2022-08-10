@@ -1,7 +1,7 @@
 import './App.css';
-import Aside from './components/aside';
-import Information from './components/information';
-import Main from './components/main/index';
+import Aside from './components/Aside';
+import Information from './components/Information';
+import Main from './components/Main/index';
 import { AppContent} from './styles/components';
 
 function App() {
