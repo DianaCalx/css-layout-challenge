@@ -1,12 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Aside from './components/aside';
+import Information from './components/information';
+import Main from './components/main/index';
+import { AppContent} from './styles/components';
 
 function App() {
   return (
-    <div className="App">
-     App Component
-    </div>
+    <AppContent>
+     <Aside/>
+     <Main/>
+     <Information/>
+    </AppContent>
   );
 }
 
