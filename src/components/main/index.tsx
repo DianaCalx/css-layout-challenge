@@ -1,4 +1,4 @@
-import { SearchMain, MainContent, Search } from './mainComponents';
+import { SearchMain, MainContent, Search, ParRecently, SquareBlack, SquareGray, DivSquare, DivRec } from './mainComponents';
 
 const Main = () => {
   return (
@@ -6,6 +6,13 @@ const Main = () => {
       <Search>
         <SearchMain type='text' placeholder='Search'/>
       </Search>
+      <DivRec>
+        <ParRecently>Recently Used</ParRecently>
+        <DivSquare>
+          <SquareBlack/>
+          <SquareGray/>         
+        </DivSquare>
+      </DivRec>
     </MainContent>
   )
 }

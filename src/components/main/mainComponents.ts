@@ -33,6 +33,32 @@ export const SearchMain = styled.input`
   border: none;
   padding: 1rem 1rem 1rem 3.4rem;
   position: relative;
+`
 
- 
+export const DivRec = styled.div`
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
+
+export const ParRecently = styled.p`
+  font-size: 2rem;
+`
+
+export const SquareBlack = styled.div`
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid ${v.darkBlueColor};
+`
+
+export const SquareGray = styled.div`
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid ${v.lightGrayColor};
+`
+
+export const DivSquare = styled.div`
+  display: flex;
+  gap: 1rem;
 `
