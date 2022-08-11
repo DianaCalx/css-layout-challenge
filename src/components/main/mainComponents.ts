@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import v from '../../styles/variables';
 
-
 export const MainContent = styled.div`
     flex: 1;
     margin-left: 1%;
@@ -22,7 +21,7 @@ export const Search = styled.div`
     height: 1.5rem;
     top: 3.5rem;
     left: 1rem;   
-    border: 1px solid ${v.searchColor};
+    border: 1px solid ${v.lightGrayColor2};
     z-index: 100;
   }
 `
@@ -33,32 +32,4 @@ export const SearchMain = styled.input`
   border: none;
   padding: 1rem 1rem 1rem 3.4rem;
   position: relative;
-`
-
-export const DivRec = styled.div`
-  width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`
-
-export const ParRecently = styled.p`
-  font-size: 2rem;
-`
-
-export const SquareBlack = styled.div`
-  width: 1.5rem;
-  height: 1.5rem;
-  border: 1px solid ${v.darkBlueColor};
-`
-
-export const SquareGray = styled.div`
-  width: 1.5rem;
-  height: 1.5rem;
-  border: 1px solid ${v.lightGrayColor};
-`
-
-export const DivSquare = styled.div`
-  display: flex;
-  gap: 1rem;
 `

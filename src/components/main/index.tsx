@@ -1,4 +1,8 @@
-import { SearchMain, MainContent, Search, ParRecently, SquareBlack, SquareGray, DivSquare, DivRec } from './mainComponents';
+
+import RecentlyUsed from '../RecentlyUsed';
+import RecentlyFiles from '../RecentlyFiles';
+import SharedWithMe from '../SharedWithMe';
+import { SearchMain, MainContent, Search } from './mainComponents';
 
 const Main = () => {
   return (
@@ -6,13 +10,9 @@ const Main = () => {
       <Search>
         <SearchMain type='text' placeholder='Search'/>
       </Search>
-      <DivRec>
-        <ParRecently>Recently Used</ParRecently>
-        <DivSquare>
-          <SquareBlack/>
-          <SquareGray/>         
-        </DivSquare>
-      </DivRec>
+      <RecentlyUsed/>
+      <RecentlyFiles/>
+      <SharedWithMe/>
     </MainContent>
   )
 }
