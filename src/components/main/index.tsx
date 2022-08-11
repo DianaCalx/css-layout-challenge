@@ -1,8 +1,12 @@
-import React from 'react'
+import { SearchMain, MainContent, Search } from './mainComponents';
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <MainContent>
+      <Search>
+        <SearchMain type='text' placeholder='Search'/>
+      </Search>
+    </MainContent>
   )
 }
 
