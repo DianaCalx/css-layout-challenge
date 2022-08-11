@@ -1,7 +1,11 @@
+:root {
+  --darkBlue: '#34395';
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: '#E5E5E5';
+  background-color: white;
   font-family: 'Roboto',sans-serif, 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
 }
 
@@ -12,4 +16,5 @@ html {
 body{
   font-size: 1.6rem;
   margin: 0;
+  color:  var(--darkBlue);
 }
