@@ -1,9 +1,9 @@
-import { CheckFileContent, CheckInput, CheckPar } from './checkFileComponents';
+import { CheckFileContent, Square, CheckPar } from './checkFileComponents';
 
 const CheckFile = ({fileType}: {fileType: string}) => {
   return (
     <CheckFileContent>
-      <CheckInput type="checkbox"/>
+      <Square/>
       <CheckPar>{fileType}</CheckPar>
     </CheckFileContent>
   )

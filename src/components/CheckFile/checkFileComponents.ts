@@ -9,11 +9,10 @@ export const CheckFileContent = styled.div`
   padding: 2.5rem 0;
 `
 
-export const CheckInput = styled.input`
+export const Square = styled.div`
   width: 1.5rem;
   height: 1.5rem;
-  border: none;
-  /* outline: 2px solid white; */
+  border: 1px solid white;
 `
 export const CheckPar = styled.p`
   color: white;
