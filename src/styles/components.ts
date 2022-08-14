@@ -4,6 +4,7 @@ export const AppContent = styled.div`
   display: flex;
   width: 100%;
   height: 100vh;
+  overflow-y: auto;
 `;
 
 export const Circle = styled.div<{ color?: string }>`
