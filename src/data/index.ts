@@ -64,3 +64,53 @@ export const shareFiles = [
     members: 2
   }
 ]
+
+export const documents = [
+  {
+    name: 'Documents',
+    files: '720 files',
+    storage: '200 GB',
+    color: '#FF9F00', 
+  },
+  {
+    name: 'Documents',
+    files: '720 files',
+    storage: '125 GB',
+    color: '#689FF8', 
+  },
+  {
+    name: 'Documents',
+    files: '720 files',
+    storage: '75 GB',
+    color: '#4AC29D', 
+  },
+  {
+    name: 'Documents',
+    files: '720 files',
+    storage: '50 GB',
+    color: '#BCBECA', 
+  }
+]
+
+export const data = {
+  datasets: [
+    {
+      label: '# of Votes',
+      data: [12, 19, 3, 5],
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+        'rgba(255, 206, 86, 0.2)',
+        'rgba(75, 192, 192, 0.2)',
+      ],
+      borderColor: [
+        'rgba(255, 99, 132, 1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+      ],
+      borderWidth: 1, 
+    },
+  ],
+};
+
