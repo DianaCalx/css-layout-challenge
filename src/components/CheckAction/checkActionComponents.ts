@@ -6,12 +6,13 @@ export const CheckActionContent = styled.div`
   align-items: center;
 `
 
-export const CheckInput = styled.input`
+export const Square = styled.div`
   width: 1.5rem;
   height: 1.5rem;
-  border: none;
-  /* outline: 2px solid white; */
+  border: 1px solid white;
+  margin-right: 0.7rem;
 `
+
 export const CheckPar = styled.p`
   color: white;
   font-size: 1rem;

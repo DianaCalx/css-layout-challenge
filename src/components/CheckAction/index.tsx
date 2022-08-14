@@ -1,9 +1,9 @@
-import { CheckActionContent, CheckInput, CheckPar } from './checkActionComponents';
+import { CheckActionContent, Square, CheckPar } from './checkActionComponents';
 
 const CheckAction = ({action}: {action: string}) => {
   return (
     <CheckActionContent>
-      <CheckInput type="checkbox"/>
+      <Square/>
       <CheckPar>{action}</CheckPar>
     </CheckActionContent>
   )
