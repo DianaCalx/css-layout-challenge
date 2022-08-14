@@ -10,6 +10,7 @@ export const CheckFileContent = styled.div`
   position: relative;
 
   &:hover {
+    cursor: pointer;
     &::before {
       content: '';
       position: absolute;

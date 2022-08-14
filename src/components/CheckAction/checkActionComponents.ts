@@ -4,6 +4,10 @@ import v from '../../styles/variables';
 export const CheckActionContent = styled.div`
   display: flex;
   align-items: center;
+
+  &:hover{
+    cursor: pointer;
+  }
 `
 
 export const Square = styled.div`
