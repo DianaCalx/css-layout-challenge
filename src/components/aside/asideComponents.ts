@@ -2,10 +2,13 @@ import styled from 'styled-components';
 import v from '../../styles/variables';
 
 export const AsideContent = styled.div`
-  width: 16.7%;
+  width: 18%;
   padding: 3.6rem 3.2rem;
   background-color: ${v.darkBlueColor};
   height: 100vh;
+  @media screen and (min-width: 1200px){
+    max-width: 18rem;
+  }
 `
 export const RectangleAside = styled.div`
   width: 7.4rem;
@@ -23,6 +26,16 @@ export const DivActionAside = styled.div`
   padding: 1rem 1.4rem;
   width: 100%;
   max-width: 11.6rem;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -0.75rem;
+    left: 1.3rem;
+    border-right: 1.5rem solid transparent;
+    border-top: 1.5rem solid ${v.darkGrayColor};
+    border-left: 1.5rem solid transparent;
+  }
 `
 export const ButtonCreate = styled.button`
   border-radius: 7px;
