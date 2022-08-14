@@ -14,7 +14,7 @@ const Aside = () => {
       <DivActionAside>
         {(actionFile as string[]).map( a => (
           <CheckAction key={a} action={a}/>
-        ))}
+        ))}      
       </DivActionAside>
       <ButtonCreate>Create New</ButtonCreate>
     </AsideContent>

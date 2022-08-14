@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import v from '../../styles/variables';
 
 export const AsideContent = styled.div`
-  width: 12%;
+  width: 16.7%;
   padding: 3.6rem 3.2rem;
   background-color: ${v.darkBlueColor};
   height: 100vh;
@@ -21,7 +21,8 @@ export const DivActionAside = styled.div`
   background-color: ${v.darkGrayColor};
   border-radius: 9px;
   padding: 1rem 1.4rem;
-  width: 11.6rem;
+  width: 100%;
+  max-width: 11.6rem;
 `
 export const ButtonCreate = styled.button`
   border-radius: 7px;
@@ -35,7 +36,8 @@ export const ButtonCreate = styled.button`
   color: white;
   margin-top: 2rem;
   position: relative;
-  width: 11.6rem;
+  width: 100%;
+  max-width: 11.6rem;
   font-size: 1rem;
 
   ::before {
@@ -44,7 +46,7 @@ export const ButtonCreate = styled.button`
     background-color: ${v.lightYellowColor};
     width: 2rem;
     height: 2rem;
-    right: 1rem;
+    right: 0.4rem;
     top: 0.5rem;
     font-size: 2rem;
     display: flex;
