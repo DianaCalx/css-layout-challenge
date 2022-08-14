@@ -77,6 +77,7 @@ export const DivFlexDoc = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  align-items: center;
 `
 
 export const DivUpgrade = styled.div`
