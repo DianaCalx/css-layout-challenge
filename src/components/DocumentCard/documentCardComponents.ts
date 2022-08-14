@@ -18,7 +18,9 @@ export const DivFlex = styled.div`
   align-items: center;
   justify-content: flex-start;
   padding-bottom: 0.9rem;
-  border-bottom: 1px solid ${v.marginColor};
+  &:not(:last-of-type) {
+    border-bottom: 1px solid ${v.marginColor};
+  }
 `
 
 export const DivDescrip = styled.div`
