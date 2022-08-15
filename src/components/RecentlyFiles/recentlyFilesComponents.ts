@@ -26,5 +26,5 @@ export const DivGrid = styled.div`
   font-size: 1.2rem;
   color: ${v.darkGrayColor2};
   display: grid;
-  grid-template-columns: 50% 20% 30%;
+  grid-template-columns: 50% 19.5% 30.5%;
 `
