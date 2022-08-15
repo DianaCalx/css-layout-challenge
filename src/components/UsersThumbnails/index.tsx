@@ -1,7 +1,6 @@
 import { UsersThumbnailsC } from './usersThumbnailsComp';
 import { Circle } from '../../styles/components';
-
-const colors = ['#4AC29D', '#FF6860', '#FF9F00', '#BEC0C8']
+import { colors } from '../../data';
 
 const UsersThumbnails = ({ usersCount, color }: { usersCount: number, color?: boolean }) => {
 
