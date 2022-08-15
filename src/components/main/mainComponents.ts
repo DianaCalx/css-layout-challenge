@@ -2,13 +2,11 @@ import styled from 'styled-components';
 import v from '../../styles/variables';
 
 export const MainContent = styled.div`
-    flex: 1;
-    margin-left: 1%;
-    margin-right: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: ${v.backgroundColor};
+    height: 100%;
 `
 export const Search = styled.div`
   position: relative;

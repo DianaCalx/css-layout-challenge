@@ -3,10 +3,9 @@ import { ReactComponent as Avat } from '../../assets/avatar.svg';
 import v from '../../styles/variables';
 
 export const InformationContent = styled.div`
-  width: 25%;
-  padding: 3.4rem;
+  padding: 2rem 3.4rem;
   background-color: ${v.backgroundColor};
-  height: 100vh;
+  height: 100%;
 `
 export const DivFlex = styled.div`
   display: flex;

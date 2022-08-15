@@ -2,13 +2,11 @@ import styled from 'styled-components';
 import v from '../../styles/variables';
 
 export const AsideContent = styled.div`
-  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 3.6rem 3.2rem;
   background-color: ${v.darkBlueColor};
-  height: 100vh;
-  @media screen and (min-width: 1200px){
-    max-width: 18rem;
-  }
 `
 export const RectangleAside = styled.div`
   width: 7.4rem;
@@ -19,7 +17,6 @@ export const RectangleAside = styled.div`
 `
 
 export const DivActionAside = styled.div`
-  margin-top: 5rem;
   border: 1px solid ${v.darkGrayColor};
   background-color: ${v.darkGrayColor};
   border-radius: 9px;

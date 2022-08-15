@@ -1,10 +1,13 @@
 import styled, { css } from 'styled-components';
 
 export const AppContent = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 18rem 1fr 25%;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  gap: 1rem;
   overflow-y: auto;
+  overflow-x: hidden;
 `;
 
 export const Circle = styled.div<{ color?: string }>`
